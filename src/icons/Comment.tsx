@@ -1,6 +1,7 @@
 import * as React from "react";
 import Svg, { Path } from "react-native-svg";
-const SvgComment = (props) => (
+import type { SvgProps } from "react-native-svg";
+const SvgComment = (props: SvgProps) => (
   <Svg
     xmlns="http://www.w3.org/2000/svg"
     width={24}
@@ -9,7 +10,7 @@ const SvgComment = (props) => (
     {...props}
   >
     <Path
-      stroke={props.color || "#000"}
+      stroke="#000"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}

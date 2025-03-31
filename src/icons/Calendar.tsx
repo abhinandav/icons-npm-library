@@ -1,7 +1,7 @@
 import * as React from "react";
 import Svg, { Path } from "react-native-svg";
 import type { SvgProps } from "react-native-svg";
-const SvgLikes = (props: SvgProps) => (
+const SvgCalendar = (props: SvgProps) => (
   <Svg
     xmlns="http://www.w3.org/2000/svg"
     width={24}
@@ -10,12 +10,12 @@ const SvgLikes = (props: SvgProps) => (
     {...props}
   >
     <Path
-      stroke="#000"
+      stroke="#FE4D00"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M7.5 4A5.5 5.5 0 0 0 2 9.5C2 15 8.5 20 12 21.163 15.5 20 22 15 22 9.5a5.5 5.5 0 0 0-10-3.163A5.5 5.5 0 0 0 7.5 4"
+      d="M19 4H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2M16 2v4M8 2v4M3 10h18"
     />
   </Svg>
 );
-export default SvgLikes;
+export default SvgCalendar;

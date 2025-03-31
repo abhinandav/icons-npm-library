@@ -1,21 +1,21 @@
 import * as React from "react";
 import Svg, { Path } from "react-native-svg";
 import type { SvgProps } from "react-native-svg";
-const SvgLikes = (props: SvgProps) => (
+const SvgSearch = (props: SvgProps) => (
   <Svg
     xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
+    width={32}
+    height={32}
     fill="none"
     {...props}
   >
     <Path
-      stroke="#000"
+      stroke="#FE4D00"
       strokeLinecap="round"
       strokeLinejoin="round"
-      strokeWidth={2}
-      d="M7.5 4A5.5 5.5 0 0 0 2 9.5C2 15 8.5 20 12 21.163 15.5 20 22 15 22 9.5a5.5 5.5 0 0 0-10-3.163A5.5 5.5 0 0 0 7.5 4"
+      strokeWidth={2.667}
+      d="m28 28-8-8M4 13.333a9.333 9.333 0 1 0 18.666 0 9.333 9.333 0 0 0-18.666 0"
     />
   </Svg>
 );
-export default SvgLikes;
+export default SvgSearch;

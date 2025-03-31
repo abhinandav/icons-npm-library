@@ -5,7 +5,7 @@ import * as Icons from './icons';
 type IconName = keyof typeof Icons;
 
 interface IconProps extends ViewProps {
-  name: IconName;
+  name: string;
   width?: number;
   height?: number;
   color?: string;
